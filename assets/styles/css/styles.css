@@ -1,0 +1,206 @@
+html, body {
+    background-image: url("../../images/bg-mountain-clouds.jpg") ;
+    font-family: sans-serif;
+    padding: 1em;
+
+
+}
+
+
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 0px ;
+}
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+input,select{
+    border:0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'green', sans-serif;
+
+}
+input:focus{
+    border:0.5px solid #46b8da;
+
+}
+
+select:focus{
+    border:0.5px solid #46b8da;
+
+}
+
+
+#input-submit {
+    color:white;
+    background:forestgreen;
+    cursor: pointer;
+}
+#input-reset {
+    color: white;
+    background: gray;
+    cursor: pointer;
+}
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+    margin-right: 2%;
+}
+
+
+@media (max-width: 480px) {
+    .table{
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    margin-top: 11px;
+    display:table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.list-tache{
+    width: 80%;
+}
+
+.tache{
+    width: 80%;
+    float: right;
+    padding-top: 8px;
+    font-size: 20px;
+}
+.taches{
+    width: 80%;
+    margin: 20px auto;
+}
+.check{
+    width: 20%;
+    float: left;
+}
+
+.fieltitre{
+    margin-right:20px;
+    width:200px;
+    height:200px;
+}
+.field{
+    width: 50%;
+
+
+}
+.table{
+
+    border-collapse: collapse;
+    width: 62%;
+    border: 0;
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 50px;
+}
+
+.u{
+    width:10%;
+}
+.a{
+    width:50px;
+    height: 50px;
+
+}
+.righ
+{
+    width: 80%;
+    padding-right: 30px;
+}
+
+.chbx{
+    width:50px;
+}
+
+.c{
+    widith:50px;
+    height:50px;
+}
+
+.x{
+    width:70%;
+}
+.righ1
+{
+    width: 80%;
+    padding-right: 30px;
+}
+
+.tdx{
+    mso-element-frame-width: auto;
+    width: 64px
+}
+
+.tdt{
+    width: 40%;
+    font-size: 18px
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dat{
+    font-size: 14px;
+}
+
+.btn-primary {
+    color: #fff;
+    top: 20%;
+    left: 20%;
+}
+.btt {
+    padding: 5px;
+}
+
+#btn-secondary {
+    color: #fff;
+    background-color: #d62323;
+    border-color: #264967;}
+
+
+.w{
+font-size: 10px ;
+}
+colro
+btn btn-primary btn-sm{
+
+}
+.disabled{
+  color: gray;
+}
